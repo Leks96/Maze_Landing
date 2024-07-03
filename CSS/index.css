@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* reset */
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    line-height: 1.5;
+    font-family: 'Merriweather';
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+    position: relative;
+  }
+  input, button, textarea, select {
+    font: inherit;
+  }
+  picture, video, canvas {
+    display: block;
+    max-width: 100%;
+  }
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Karla' ;
+  }
+  #root, #__next {
+    isolation: isolate;
+  }
+
+  .heroText h3 {
+    font-family: "Audiowide";
+    font-size: 56px;
+    line-height: 78px;
+    color: white;
+    letter-spacing: normal;
+  }
+  .heroText h5 {
+    font-family: "Silkscreen";
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: normal;
+    color: white;
+  }
+
+  .button {
+    background-color: white;
+    font-family: "Silkscreen";
+    border: none;
+    border-radius: 50px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    box-shadow: -5px 10px 1px #ff511a;
+  }
+
+  body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.bg-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+}
+
+.content, .heroCon, .footer {
+    position: relative;
+    z-index: 1;
+    color: white;
+}
+
+.navbar-brand {
+    font-family: "Audiowide";
+    color: #ff511a;
+    font-size: 26px;
+}
+
+.navbar-brand:hover {
+    color: #ffc5b3;
+}
+
+.nav-link {
+    font-family: "Fira Sans";
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+}
+
+.nav-link:active {
+    color: azure;
+}
+.nav-link:visited {
+    color: azure;
+}
+.nav-link:hover {
+    color: #ffc5b3 !important;
+}
+.heroCon {
+    margin-top: 8rem;
+}
+
+.footer {
+    margin-top: 10rem;
+    height: 100px;
+}
+
+.footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.linkedIn i {
+    font-size: 26px;
+    color: white;
+}
+
+.twitter i {
+    font-size: 26px;
+    color: white;
+}
