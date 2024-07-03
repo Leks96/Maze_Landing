@@ -159,6 +159,10 @@
     color: white;
 }
 
+button i {
+  border: none;
+  color: white;
+}
 
 @media (max-width: 767px) {
   .heroCon {
