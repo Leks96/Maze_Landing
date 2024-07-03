@@ -65,6 +65,22 @@
     box-shadow: -5px 10px 1px #ff511a;
   }
 
+  .button:hover {
+    background-color: transparent;
+    font-family: "Silkscreen";
+    border: 1px solid #ff511a;
+    border-radius: 50px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    box-shadow: none;
+  }
+
   body, html {
     height: 100%;
     margin: 0;
@@ -141,4 +157,17 @@
 .twitter i {
     font-size: 26px;
     color: white;
+}
+
+
+@media (max-width: 767px) {
+  .heroCon {
+    margin-top: 6rem;
+  }
+  .heroText h5 {
+    font-size: 16px;
+  }
+  .heroText h3 {
+    font-size: 36px;
+  }
 }
